@@ -1,0 +1,141 @@
+
+.Navbarlink:hover{
+  /* background-color: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%); */
+  border-radius: 0.3rem;
+  color: white;
+  border:"1px solid white",
+}
+
+/* profile =box */
+.profilebox{
+  /* border:1px solid white; */
+  border-radius: 1rem;
+   width: 20rem;
+  height: 25rem;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+
+}
+#linkedinbtn:hover{
+  background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
+}
+
+.Navbarlink:hover{
+  color: white;
+  transform: scale(1.3);
+}
+input{
+  padding: 0.5rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+}
+/* applying for desktop screen */
+
+#studynow{
+  margin-bottom: 4rem;
+}
+
+#studynow:hover{
+  padding: "0.5 rem";
+  background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
+
+}
+
+#AllSubjects:hover{
+  transform: scale(1.3);
+  background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
+}
+#AllSubjects{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+}
+#primary-btn{
+  padding: 0.2rem;
+
+}
+#primary-btn:hover{
+  transform: scale(1.1);
+  padding: "0.5 rem";
+  background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
+}
+
+
+.Navbar{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+}
+
+.mainbox{
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+     }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+  opacity: 0.7;
+   padding: 2rem; 
+}
+
+.mainbox:hover {
+  transform: scale(1.04);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(89,0,255,1) 100%);
+  
+   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.searchedbook:hover{
+  transform: scale(1.04);
+  
+}
+body {
+background: rgb(2,0,36);
+
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(89,0,255,1) 100%);
+}
+
+@media only screen and (max-width: 600px) {
+ 
+
+}
+@media only screen and (max-width: 400px) {
+ 
+
+
+}
+
