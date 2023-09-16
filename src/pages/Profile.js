@@ -5,8 +5,9 @@ export function Profile() {
     return (
       <div className="profilebox"  >
         
-      <img src={myimage} style={{height:"10rem",width:"10rem",borderRadius:"50%",marginTop:"2rem",}} />
-       <p style={{color:"white",fontFamily:"Dancing Script"}}> Hi Iam <span style={{backgroundColor:""}}>Nikhil Kumar Naroliya</span>  a MCA final year student at NIT Agartal ,for  help regarding studies you can contact me through given chhanels .  </p>
+      <img id="my-profile" src={myimage}  />
+
+       <p id="my-description" style={{}}> Hi Iam <>Nikhil Kumar Naroliya</>  a MCA final year student at NIT Agartal ,for  help regarding studies you can contact me through given chhanels .  </p>
        <span style={{color:"white"}}>nikhilnaroliya6953@gmail.com</span>
        <br></br>
        <br></br>
