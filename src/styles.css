@@ -505,7 +505,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
     /* border:1px solid white; */
     border-radius: 1rem;
      width: 95%;
-    height: 30rem;
+    height: 23rem;
     margin: auto;
     margin-top: 2rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 2);
@@ -516,8 +516,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
     height:10rem;
     width:10rem;
     border-radius:50%;
-    margin-top:1rem;
-    margin-left: 6.5rem;
+    margin-bottom:2rem;
+    margin-left: 4rem;
   }
   #my-description{
     color:white;font-family:Dancing Script;
