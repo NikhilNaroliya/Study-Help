@@ -239,7 +239,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
 }
 /*-----------  for small mobile divices-----------  */
 
-@media only screen and (max-width: 400px) {
+
+
+
+
+@media only screen and (max-width: 480px) {
   .mainbox {
     position: relative;
     list-style:none;
@@ -322,6 +326,172 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
     color: white;
     /* margin-top:"3rem";margin-left:"13rem";margin-bottom:"0.3rem"
      */
+    margin-top: 1rem;
+    font-size: 12px;
+     margin-left:6rem ;
+     margin-bottom: 0.3rem;
+    
+  }
+  .status{
+    margin-left:-8rem ;
+  }
+  .profilebox{
+    /* border:1px solid white; */
+    border-radius: 1rem;
+     width: 95%;
+    height: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+  
+  }
+  #my-profile{
+    position: relative;
+    height:10rem;
+    width:10rem;
+    border-radius:50%;
+    margin-top:1rem;
+    margin-left: 6.5rem;
+  }
+  #my-description{
+    color:white;font-family:Dancing Script;
+    margin-top: 2rem;
+  }
+  #SearchBoxinput{
+
+
+    color: white;
+    width: 40%;
+    margin: 2rem;
+    border-radius: 0.4rem ;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(89,0,255,1) 100%) ;
+    margin-bottom: 1rem;
+    
+  }
+  /* removed outline active mode */
+  #SearchBoxinput:focus{
+    outline:none;
+  }
+  #searchbox-div-space{
+    position: relative;
+    height: 18rem;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+  .mainContainer {
+    /* background-color: aqua; */
+    /* display: none; */
+    
+    position: relative;
+    list-style:none;
+    height: 6rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+    color:white;
+  /* box-shadow:"revert-layer"; */
+  list-style: "none";
+    border-radius: 1rem;
+  
+}
+#search-box-img{
+  height: 6rem;
+
+}
+
+
+}
+
+
+
+/* for realme 3 pro like divices */
+
+@media only screen and (max-width: 350px) {
+  .mainbox {
+    /* background-color: white; */
+    position: relative;
+    list-style:none;
+    height: 15rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    color:white;
+  /* box-shadow:"revert-layer"; */
+  list-style: "none";
+    border-radius: "0.5rem";
+    margin: "auto";
+  color:"white";
+  height: "20rem"
+  }
+  .mainbox:hover {
+    transform: scale(1.04);
+
+    background:linear-gradient(90deg, rgb(236, 236, 241) 0%, rgb(139, 10, 10) 58%, rgb(12, 3, 30) 100%) ;
+    
+     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+
+  /*  for image in main container */
+  img{
+    margin-left: -2.45rem;
+    display: none;
+    position: absolute;
+    height: 15rem;
+    width: 8rem;
+    display: flex;
+}
+.primary-btn{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  display: flex;
+  padding: 0.3rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  width: 6rem;
+  color: white;
+  margin-bottom: "0.2rem";
+  margin-top: 0.3rem;
+  margin-bottom:"-0.5rem";
+  margin-left: 7rem;
+  background:linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%) ;
+    cursor: pointer;
+  margin-top:1rem;
+}
+.primary-btn:hover{
+  transform: scale(1.1);
+  padding: "0.5 rem";
+  background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
+}
+
+#studynow{
+  margin-bottom: 4rem;
+  margin-left: -8rem;
+  text-decoration:none;
+  color:white;border:1px solid white;
+  border-radius:5px ;
+  padding:0.2rem
+
+}
+
+#studynow:hover{
+  padding: "0.5 rem";
+  background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
+
+}
+
+
+
+  .allbooks{
+    display: flex; margin: 0.3rem; flex-wrap: wrap;
+     flex-direction: column;
+  }
+  li{
+    color: white;
+    /* margin-top:"3rem";margin-left:"13rem";margin-bottom:"0.3rem"
+     */
+     font-size: 10px;
     margin-top: 1rem;
     font-size: 12px;
      margin-left:6rem ;
