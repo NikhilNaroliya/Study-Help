@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import '../styles.css'
-import myimage from './mypic.jpeg'
+import myimage from './mypic.jpg'
 export function Profile() {
     return (
       <div className="profilebox"  >
@@ -18,9 +18,7 @@ export function Profile() {
    
        <Link id="linkedinbtn" style={{color:"white" ,border:"1px solid white", borderRadius:"0.5rem",padding:"0.5rem",textDecoration:"none"}} to="https://www.linkedin.com/in/nikhil-naroliya-a3b2a8238">LinkedIn</Link>
 
-       
- 
-      </div>
+       </div>
     );
   }
   
