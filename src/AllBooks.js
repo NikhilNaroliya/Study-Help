@@ -70,7 +70,7 @@ export function AllBooks() {
             </button>
             <button className="primary-btn" onClick={() => favBooksFun(book)}>
               {fav.includes(book) ? (
-                <NavLink to="/fav">go to fav</NavLink>
+                <NavLink style={{color:"white",textDecoration:"none"}} to="/fav">Go to Fav</NavLink>
               ) : (
                 "Add To Fav"
               )}

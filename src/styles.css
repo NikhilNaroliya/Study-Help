@@ -21,18 +21,25 @@
 .profilebox{
   /* border:1px solid white; */
   border-radius: 1rem;
-   width: 20rem;
-  height: 25rem;
   margin: auto;
+   width: 20%;
+  height: 23rem;
   margin-top: 2rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 2);
 
 }
 #my-profile{
+  position: relative;
   height:10rem;
   width:10rem;
+  margin: auto;
   border-radius:50%;
-  margin-top:2rem
+  margin-bottom:2rem;
+  margin-left: 4rem;
+}
+#my-description{
+  color:white;font-family:Dancing Script;
+  margin-top: 2rem;
 }
 #linkedinbtn:hover{
   background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
@@ -506,7 +513,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
     margin-left:-8rem ;
   }
   #fav-status{
-    margin-left:-6rem ;
+    margin-left:-3rem ;
   
   }
   .profilebox{

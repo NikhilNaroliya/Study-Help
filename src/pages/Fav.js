@@ -25,8 +25,8 @@ export function Fav() {
           <li id="fav-li">Title : {book.title}</li>
         
           <li>
-            <span id="fav-status" >status:</span>{" "}
-            <span style={{ color: book.read === true ? "green" : "red" }}>
+            <span s id="fav-status" >status:</span>{" "}
+            <span  style={{ color: book.read === true ? "green" : "red" }}>
               {" "}
               {book.read === true ? "completed" : "read it"}
             </span>

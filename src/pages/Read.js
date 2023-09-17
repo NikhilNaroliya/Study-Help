@@ -25,14 +25,14 @@ export function Read() {
         >
           <img
             alt="Loading..."
-            style={{ height: "7rem", width: "9rem",  }}
+            style={{ height: "7rem"  }}
             src={book.image}
           />
           <li>Title : {book.title}</li>
      
           <li>
-            <span style={{ color: "" }}>status:</span>{" "}
-            <span style={{ color: book.read === true ? "green" : "red" }}>
+            <span s id="fav-status" >status:</span>{" "}
+            <span  style={{ color: book.read === true ? "green" : "red" }}>
               {" "}
               {book.read === true ? "completed" : "read it"}
             </span>
