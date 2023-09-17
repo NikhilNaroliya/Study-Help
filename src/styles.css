@@ -232,9 +232,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
 /* for larger displays  */
 
 @media only screen and (max-width: 600px) {
-  .mainbox{
+  /* .mainbox{
   
-  }
+  } */
 
 }
 /*-----------  for small mobile divices-----------  */
@@ -368,6 +368,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
     margin-bottom: 1rem;
     
   }
+ 
+  #fav-li{
+    margin-top: 2rem;
+  }
   /* removed outline active mode */
   #SearchBoxinput:focus{
     outline:none;
@@ -500,6 +504,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 58%, rgba(
   }
   .status{
     margin-left:-8rem ;
+  }
+  #fav-status{
+    margin-left:-6rem ;
+  
   }
   .profilebox{
     /* border:1px solid white; */
