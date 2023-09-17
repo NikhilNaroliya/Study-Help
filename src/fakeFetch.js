@@ -21,6 +21,33 @@ export const fakeFetch = (url) => {
                 price: 'free',
                 Studied: false
               },
+              {
+                id: 1,
+                title: "Computer Network",
+                author: "Aman Dhattarwal",
+                Source: "ON Youtube",
+                ReadMe:"https://drive.google.com/file/d/1c0HufJuF3gFIcBXqMbl3gpeAToRPr3nX/view?usp=drive_link",
+                year: 2022,
+                image:
+                  "https://img.freepik.com/free-vector/computer-technician-with-wrench-repairing-computer-screen-with-gears-computer-service-laptop-repair-center-notebook-setup-service-concept-bright-vibrant-violet-isolated-illustration_335657-954.jpg?w=1060&t=st=1694347941~exp=1694348541~hmac=34aa6e77791b34af0c09f1934fa180401800f6b1c25ae609e3269659fbd16974",
+                price: 'free',
+                Studied: false
+              },
+
+                
+              {
+                id: 2,
+                title: "Operating System",
+                author: "Love Babbar",
+                Source: "ON Youtube",
+                ReadMe:"https://drive.google.com/file/d/12Pp9FvfW5kCPMZ4AYCf-oA0pOXNLonkM/view?usp=drive_link",
+                year: 2023,
+                image:
+                  "https://img.freepik.com/free-vector/cloud-computing-concept_24908-55292.jpg?w=826&t=st=1694354047~exp=1694354647~hmac=308828e819ea64b97a4009932b43169e4524db7482cfb0edfc4254b995cecc39",
+                price: 'free',
+                Studied: false
+              },
+
               {  id: 7,
                 title: "NITA College Notes",
                 ReadMe:"https://drive.google.com/drive/folders/1f3Dt84v-yHefAOzg44r3cUttKNjguIS0",
@@ -35,30 +62,7 @@ export const fakeFetch = (url) => {
 
                 
 
-                {
-                  id: 1,
-                  title: "Computer Network",
-                  author: "Aman Dhattarwal",
-                  Source: "ON Youtube",
-                  ReadMe:"https://drive.google.com/file/d/1c0HufJuF3gFIcBXqMbl3gpeAToRPr3nX/view?usp=drive_link",
-                  year: 2022,
-                  image:
-                    "https://img.freepik.com/free-vector/computer-technician-with-wrench-repairing-computer-screen-with-gears-computer-service-laptop-repair-center-notebook-setup-service-concept-bright-vibrant-violet-isolated-illustration_335657-954.jpg?w=1060&t=st=1694347941~exp=1694348541~hmac=34aa6e77791b34af0c09f1934fa180401800f6b1c25ae609e3269659fbd16974",
-                  price: 'free',
-                  Studied: false
-                },
-                {
-                  id: 2,
-                  title: "Operating System",
-                  author: "Love Babbar",
-                  Source: "ON Youtube",
-                  ReadMe:"https://drive.google.com/file/d/12Pp9FvfW5kCPMZ4AYCf-oA0pOXNLonkM/view?usp=drive_link",
-                  year: 2023,
-                  image:
-                    "https://img.freepik.com/free-vector/cloud-computing-concept_24908-55292.jpg?w=826&t=st=1694354047~exp=1694354647~hmac=308828e819ea64b97a4009932b43169e4524db7482cfb0edfc4254b995cecc39",
-                  price: 'free',
-                  Studied: false
-                },
+            
                 {
                   id: 9,
                   title: "Node JS",
