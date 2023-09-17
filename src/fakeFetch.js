@@ -22,6 +22,18 @@ export const fakeFetch = (url) => {
                 Studied: false
               },
               {
+                id: 5,
+                title: "DBMS And SQL",
+                ReadMe:"https://drive.google.com/file/d/1BwuE9DG7sknHeb_p3DekpBKZshrWBEfK/view?usp=drive_link",
+                author: "Love Babbar",
+                Source: "ON Youtube",
+                year: 2023,
+                image:
+                  "https://img.freepik.com/premium-photo/virtual-cloud-data-storage-server-with-neon-lights-ai_76964-6101.jpg?w=740",
+                price: 'free',
+                Studied: false
+              },
+              {
                 id: 1,
                 title: "Computer Network",
                 author: "Aman Dhattarwal",
@@ -113,18 +125,7 @@ export const fakeFetch = (url) => {
                   price: 'free',
                   Studied: false
                 },
-                {
-                  id: 5,
-                  title: "DBMS And SQL",
-                  ReadMe:"https://drive.google.com/file/d/1BwuE9DG7sknHeb_p3DekpBKZshrWBEfK/view?usp=drive_link",
-                  author: "Love Babbar",
-                  Source: "ON Youtube",
-                  year: 2023,
-                  image:
-                    "https://img.freepik.com/premium-photo/virtual-cloud-data-storage-server-with-neon-lights-ai_76964-6101.jpg?w=740",
-                  price: 'free',
-                  Studied: false
-                },
+            
              
               
               ],
