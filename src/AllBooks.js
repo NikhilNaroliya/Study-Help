@@ -48,7 +48,7 @@ export function AllBooks() {
             
 
             <li className="title"> Title : {book.title}</li>
-            <li className="author">Author : {book.author}</li>
+            {/* <li className="author">Author : {book.author}</li> */}
             <li className="studynow-btn">
               
               <span className="status">Status:</span>{" "}
