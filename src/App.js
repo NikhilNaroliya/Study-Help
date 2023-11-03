@@ -7,6 +7,7 @@ import { Profile } from "./pages/Profile";
 import { Fav } from "./pages/Fav";
 import { useContext } from "react";
 import {Notes} from "./pages/Notes"
+import {Chat} from "./pages/Chat"
 import { DataContext } from "./DataContext";
 
 export default function App() {
@@ -51,6 +52,10 @@ export default function App() {
           {" "}
           AddNotes{" "}
         </NavLink>
+        <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/chat">
+          {" "}
+          Chat{" "}
+        </NavLink>
         <NavLink className="Navbarlink"
           style={{ textDecoration: "none", color: "white" }}
           to="/profile"
@@ -79,6 +84,7 @@ export default function App() {
       <Routes>
         <Route path="/" />
         <Route path="/notes" element={<Notes/>}/>
+        <Route path="/chat" element={<Chat/>}/>
       
         <Route path="/allbooks" element={<AllBooks />} />
         <Route path="/read" element={<Read />} />
