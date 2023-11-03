@@ -111,7 +111,7 @@ export function Notes () {
             />
           </div>
           <div className="todo-input-item">
-            <label>Description:</label>
+            <label style={{marginTop:"0.5rem"}}>Description:</label>
             <input
                  id='taking-input'
              maxlength = "500"
