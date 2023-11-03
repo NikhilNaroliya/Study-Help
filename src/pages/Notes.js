@@ -51,7 +51,7 @@ export function Notes () {
 
   const handleCompletedTodoDelete = index => {
     let reducedCompletedTodos = [...completedTodos];
-    reducedCompletedTodos.splice (index);
+    reducedCompletedTodos.splice (index,1);
     // console.log (reducedCompletedTodos);
     localStorage.setItem (
       'completedTodos',
@@ -94,7 +94,7 @@ export function Notes () {
     <div className="App">
       <br/>
       <h4>MyNotes</h4>
-      <br/>
+    
 
       <div className="todo-wrapper">
 
@@ -102,7 +102,8 @@ export function Notes () {
           <div className="todo-input-item">
             <label>Title:</label>
             <input
-               maxlength = "40"
+             id='taking-input'
+               maxlength = "15"
               type="text"
               value={newTodoTitle}
               onChange={e => setNewTodoTitle (e.target.value)}
@@ -112,7 +113,8 @@ export function Notes () {
           <div className="todo-input-item">
             <label>Description:</label>
             <input
-             maxlength = "40"
+                 id='taking-input'
+             maxlength = "100"
               type="text"
               value={newDescription}
               onChange={e => setNewDescription (e.target.value)}
@@ -121,7 +123,7 @@ export function Notes () {
           </div>
           <div className="todo-input-item">
             <button
-              className="primary-btn"
+              className="primary-btn-notes"
               type="button"
               onClick={handleAddNewToDo}
             >

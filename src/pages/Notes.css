@@ -11,7 +11,10 @@ body{
   
   
   .todo-wrapper{
-    background-color: #353434;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: #353434; */
     padding: 2%;
     width: fit-content;
     margin-left: auto;
@@ -19,14 +22,17 @@ body{
     margin-top: 3%;
     max-height: 80vh;
     overflow-y: auto;
-    box-shadow: 0px 5px 7px rgb(26, 25, 25);
+    box-shadow: 0px 5px 7px rgb(50, 50, 50);
    
     
   }
   
   .todo-input{
+  
     display: flex;
-    border-radius: 0.5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgb(77, 77, 77);
@@ -37,6 +43,8 @@ body{
   
   .todo-input-item{
     margin-right: 25px;
+  
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -53,6 +61,9 @@ body{
     padding: 8px;
     width: 250px;
   }
+  #taking-input{
+    border-radius: 0.5rem;
+  }
   
   .todo-input-item input:focus{
     outline: 2px solid rgb(0, 230, 122);
@@ -61,10 +72,11 @@ body{
   
   
   
-  .primary-btn{
-    background-color: rgb(0, 230, 122);
+  .primary-btn-notes{
+    background:linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
     color: white;
-    border-radius: 0px;
+    border-radius: 0.5rem;
     border: none;
     margin-top: 25px;
     padding: 10px;
@@ -72,8 +84,8 @@ body{
     cursor: pointer;
   }
   
-  .primary-btn:hover{
-    background-color: rgb(4, 192, 104);
+  .primary-btn-notes:hover{
+    background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
   }
   
   .btn-area{
@@ -92,7 +104,7 @@ body{
   }
   
   .btn-area .active{
-    background-color: rgb(4, 192, 104);
+    background: linear-gradient(109.6deg, rgb(123, 55, 202) 13.4%, rgb(186, 40, 104) 100.2%);
   }
   
   
@@ -104,19 +116,20 @@ body{
   
   .todo-list-item{
     display: flex;
+    flex-grow: inherit;
     justify-content: space-between;
     align-items: center;
-    background-color: #414040;
+    /* background-color: #414040; */
     padding: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 2px 4px rgb(39, 38, 38);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
   }
   
   .todo-list-item h3{
     font-size: 25px;
-    color: rgb(0, 230, 122);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin: 0px;
   }
