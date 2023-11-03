@@ -6,6 +6,7 @@ import { Read } from "./pages/Read";
 import { Profile } from "./pages/Profile";
 import { Fav } from "./pages/Fav";
 import { useContext } from "react";
+import {Notes} from "./pages/Notes"
 import { DataContext } from "./DataContext";
 
 export default function App() {
@@ -29,13 +30,14 @@ export default function App() {
           marginTop:"-1rem",
           marginBottom:"2rem",
           display: "flex",
-          justifyContent: "space-evenly"
+          justifyContent: "space-around"
         }}
       >
         <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/">
           {" "}
           Home{" "}
         </NavLink>
+
 
         <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/fav">
           {" "}
@@ -44,6 +46,10 @@ export default function App() {
         <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/read">
           {" "}
           Read({numberOfReads})
+        </NavLink>
+        <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/notes">
+          {" "}
+          AddNotes{" "}
         </NavLink>
         <NavLink className="Navbarlink"
           style={{ textDecoration: "none", color: "white" }}
@@ -72,6 +78,8 @@ export default function App() {
       </Link>
       <Routes>
         <Route path="/" />
+        <Route path="/notes" element={<Notes/>}/>
+      
         <Route path="/allbooks" element={<AllBooks />} />
         <Route path="/read" element={<Read />} />
         <Route path="/fav" element={<Fav />} />
