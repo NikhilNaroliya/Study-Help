@@ -103,7 +103,7 @@ export function Notes () {
             <label>Title:</label>
             <input
              id='taking-input'
-               maxlength = "15"
+               maxlength = "60"
               type="text"
               value={newTodoTitle}
               onChange={e => setNewTodoTitle (e.target.value)}
