@@ -93,7 +93,7 @@ export function Notes () {
   return (
     <div className="App">
       <br/>
-      <h4>MyNotes</h4>
+      <h4>Short Notes</h4>
     
 
       <div className="todo-wrapper">
@@ -114,7 +114,7 @@ export function Notes () {
             <label>Description:</label>
             <input
                  id='taking-input'
-             maxlength = "100"
+             maxlength = "500"
               type="text"
               value={newDescription}
               onChange={e => setNewDescription (e.target.value)}
@@ -136,7 +136,7 @@ export function Notes () {
             className={`secondaryBtn ${isCompletedScreen === false && 'active'}`}
             onClick={() => setIsCompletedScreen (false)}
           >
-            To Do
+            AllNotes
           </button>
           <button
             className={`secondaryBtn ${isCompletedScreen === true && 'active'}`}
