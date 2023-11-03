@@ -19,21 +19,7 @@ export default function App() {
 
       <nav
        className="Navbar"
-        style={{
-          
-          // border: "1px solid",
-          borderColor: "lightblue",
-          borderRadius: "0.6rem",
-          backgroundColor: "white",
-          height: "1.5rem",
-        
-          padding: "1rem",
-          margin: "1rem",
-          marginTop:"-0.5rem",
-          marginBottom:"2rem",
-          display: "flex",
-          justifyContent:"space-between"
-        }}
+       
       >
         <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/">
           {" "}
@@ -53,10 +39,10 @@ export default function App() {
           {" "}
           AddNotes{" "}
         </NavLink>
-        <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/chat">
+        {/* <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/chat">
           {" "}
           Chat{" "}
-        </NavLink>
+        </NavLink> */}
         <NavLink className="Navbarlink"
           style={{ textDecoration: "none", color: "white" }}
           to="/profile"
@@ -81,6 +67,22 @@ export default function App() {
         to="/allbooks"
       >
         View all Subjects
+      </Link>
+      <Link
+      id="AllSubjects"
+        style={{
+          color: "white",
+          marginTop: "rem",
+          padding: "1rem",
+          // border: "1px solid white",
+          margin:"1rem",
+          borderRadius: "0.7rem",
+          borderColor: "lightblue",
+          textDecoration: "none"
+        }}
+        to="/chat"
+      >
+        Ask Your Doubt
       </Link>
       <Routes>
         <Route path="/" />

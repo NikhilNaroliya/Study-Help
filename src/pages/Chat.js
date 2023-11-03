@@ -7,7 +7,7 @@ export function Chat()
     const steps = [
         {
           id: "Greet",        
-          message: "Hello, Welcome to our shop",        
+          message: "Hello Dear, Welcome ",        
           trigger: "Done",        
         },        
         {       
