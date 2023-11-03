@@ -25,13 +25,14 @@ export default function App() {
           borderColor: "lightblue",
           borderRadius: "0.6rem",
           backgroundColor: "white",
-          height: "1rem",
+          height: "1.5rem",
+        
           padding: "1rem",
           margin: "1rem",
-          marginTop:"-1rem",
+          marginTop:"-0.5rem",
           marginBottom:"2rem",
           display: "flex",
-          justifyContent: "space-around"
+          justifyContent:"space-between"
         }}
       >
         <NavLink className="Navbarlink" style={{ color: "white", textDecoration: "none" }} to="/">
