@@ -80,7 +80,7 @@ export default function App() {
           borderColor: "lightblue",
           textDecoration: "none"
         }}
-        to="/chat"
+        to="https://chat.openai.com/"
       >
         Ask Your Doubt
       </Link>
